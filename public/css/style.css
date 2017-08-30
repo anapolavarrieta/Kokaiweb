@@ -1,0 +1,176 @@
+div#homepage{
+	background-color: black;
+	padding-top: 1%;
+	height:11%;
+}
+
+div#logo{
+	padding-bottom: 1%;	
+	text-align: center;
+
+}
+
+.img-responsive{
+	display: block;
+	margin: auto;
+}
+
+div#navigation{
+	background-color: white ;
+	text-align: center;
+	/*height:15%;*/
+}
+
+div#navigationhome{
+	background-color:black;
+	text-align: center;
+}
+
+#navigationhome .navbar-nav>li>a{
+	color: white;
+}
+
+#navigationhome {
+	border-color: black;
+}
+
+#navigationhome{
+	border-top-color:white;
+	border-top-width: thick;
+	border-bottom-color:white;
+	border-bottom-width: thick;
+}
+
+.nav a{
+		font-size: 150%;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width : 992px) {
+
+	/*Agrandar letra menu*/
+	.nav a{
+		font-size: 300%;
+	}
+
+	.nav>li>a{
+		padding: 40px 40px;
+	}
+}
+
+.navbar-default{
+	border-color: white;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: black;
+}
+
+
+hr { 
+	height:20px;
+	background: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	} /*Line color and height*/
+
+
+footer{
+	text-align: center;
+}
+
+/* Medium devices (desktops, 992px and up) 
+@media only screen and (min-width : 992px) {
+
+	div#footer{ 
+		text-align: center;
+		/*Makes footer only for big devices
+		position: absolute;
+  		right: 0;
+  		bottom: 0;
+  		left: 0;
+  		padding: 1rem;
+	}
+
+}*/
+
+footer{
+	font-size: 120%
+}
+
+footer p{
+	color:white;
+}
+
+
+
+html, body, .container-fluid, .row, div#abouttext, img#imgabout, img#imgproyecto{
+	height:100%;
+}
+
+div#section1{
+	height:70%;
+	padding-top: 2%;
+}
+
+/*
+div#footer{
+	height:45%;
+}*/
+
+div.espacio{
+	height:20%;
+}
+
+div.proyectotext{
+	height:70%;
+	text-align:center;
+}
+
+p.url{
+	font-size: 200%;
+	font-weight: bold;
+}
+
+p.text, ul.text{
+	font-size: 150%;
+}
+
+ul.text {
+	list-style-type: none;
+}
+
+#serviciostext{
+	padding-top:1%;
+	
+}
+
+.servicioh2{
+	margin-top: 0px;
+}
+
+#home{
+	background-color: black;
+	height:80%;	
+}
+
+#logohome{
+	padding: 2%;
+	height: 60%;
+}
+
+footer{
+	height: 20%;
+	background-color: black;
+}
+
+
+
+

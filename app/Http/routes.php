@@ -12,5 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
+Route::get('/servicios', function () {
+    return view('servicios');
+});
+
+Route::get('/portafolio', function () {
+    return view('portafolio');
+});
+
+Route::get('/contacto', function () {
+    return view('contacto');
 });
