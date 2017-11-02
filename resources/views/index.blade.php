@@ -31,7 +31,7 @@
         		<ul class="nav navbar-nav">
 					<li><a href="/aboutus">Nosotros </a></li>
 					<li><a href='/servicios'>Servicios</a></li>
-            		<li><a href='/portafolio'>Portafolio</a></li>
+            		<li><a href='/land'>Portafolio</a></li>
             		<li><a href='/contacto'>Contacto</a></li>
 				</ul>
 			</div>

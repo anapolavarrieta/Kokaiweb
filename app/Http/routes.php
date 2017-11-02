@@ -23,10 +23,23 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
-Route::get('/portafolio', function () {
-    return view('portafolio');
+Route::get('/land', function () {
+    return view('land');
 });
+
+Route::get('/pakete', function () {
+    return view('pakete');
+});
+
+Route::get('/mipar', function () {
+    return view('mipar');
+});
+
+Route::get('contact-us', 'ContactUSController@contactUS');
+
+Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
 
 Route::get('/contacto', function () {
     return view('contacto');
 });
+

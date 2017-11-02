@@ -1,3 +1,7 @@
+html, body, .container-fluid, .row, div#abouttext, img#imgabout, img#imgproyecto{
+	height:100%;
+}
+
 div#homepage{
 	background-color: black;
 	padding-top: 1%;
@@ -7,7 +11,7 @@ div#homepage{
 div#logo{
 	padding-bottom: 1%;	
 	text-align: center;
-
+	height:auto;
 }
 
 .img-responsive{
@@ -39,6 +43,10 @@ div#navigationhome{
 	border-top-width: thick;
 	border-bottom-color:white;
 	border-bottom-width: thick;
+}
+
+.navbar{
+	position:static;
 }
 
 .nav a{
@@ -110,11 +118,6 @@ footer p{
 }
 
 
-
-html, body, .container-fluid, .row, div#abouttext, img#imgabout, img#imgproyecto{
-	height:100%;
-}
-
 div#section1{
 	height:70%;
 	padding-top: 2%;
@@ -171,6 +174,45 @@ footer{
 	background-color: black;
 }
 
+div#abouttext1 {
+	padding-top: 5%;
+	font-size:120%;
+}
+
+div#serviciostext{
+	padding-top: 3%;	
+}
+
+/*Menu size of smaller devices*/
+@media only screen and (max-width : 1052px) and (min-width: 768px){
+	li#menu{
+		font-size:70%;
+	}
+}
+
+li#submenu{
+	font-size:70%;
+}
+
+/*Padding of about us smaller devices*/
+@media only screen and (max-height : 700px) and (min-width: 768px){
+	div#abouttext1, div#serviciostext{
+		padding-top: 1%;
+	}
+}
+
+/*Inital logo for smaller devices*/
+@media only screen and (max-height : 736px){
+	div#homepage{
+		height: 20%;
+	}
+
+	div#divlogo{
+		padding-left: 0px;
+		padding-right: 0px;
+		background-color: black;
+	}
+}
 
 
 
