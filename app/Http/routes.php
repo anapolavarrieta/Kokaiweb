@@ -35,6 +35,10 @@ Route::get('/mipar', function () {
     return view('mipar');
 });
 
+Route::get('/contravel', function () {
+    return view('contravel');
+});
+
 Route::get('contact-us', 'ContactUSController@contactUS');
 
 Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
