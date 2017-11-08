@@ -5,7 +5,7 @@
  		<div class="container-fluid">
  			<div class="row">
  				<div class= "col-xs-12 col-md-7" id="abouttext">
-  					<a href="https://www.mipar.mx/" target="_blank"><img class="img-responsive" id="imgproyecto" src= "{{URL::asset('/images/Mipar.png')}}" alt="Mipar"/></a>
+  					<a href="https://www.mipar.mx/" target="_blank"><img class="img-responsive" id="imgproyecto" src= "{{URL::asset('/images/mipar1.png')}}" alt="Mipar"/></a>
   				</div>
   				<div class= "col-xs-12 col-md-5" id="abouttext">
   					<div class="espacio"></div>
