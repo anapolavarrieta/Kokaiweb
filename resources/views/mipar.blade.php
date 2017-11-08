@@ -13,7 +13,7 @@
   						<p class="url"><a href="https://www.mipar.mx/" target="_blank">www.mipar.mx </a></p>
   						<p class="text"> Tienda en línea de zapatería</p>
   						<ul class="text">
-  							<li>Adaptación de diseño </li>
+  							<li>Adaptación de diseño creado por Map Arts </li>
                 <li>Tienda en linea </li>
   							<li>Configuración servidor</li>
                 <li>Configuración de inventario</li>
