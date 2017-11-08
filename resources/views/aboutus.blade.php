@@ -4,10 +4,10 @@
 <div id="section1">
  <div class="container-fluid">
  	<div class="row">
-  			<div class= "col-xs-12 col-md-4" id="abouttext">
+  			<div class= "col-xs-12 col-md-6" id="abouttext">
   				<img class="img-responsive" id="imgabout" src= "{{URL::asset('/images/Logoblanco.jpg')}}" alt="About us"/></a>
   			</div>
-  			<div class= "col-xs-12 col-md-8" id="abouttext">
+  			<div class= "col-xs-12 col-md-6" id="abouttext1">
   				<p> Somos un grupo de desarrolladores buscando resolver diferentes necesidades tecnológicas (TI)</p>
 
 				<p> Nuestro objetivo es ayudar a pequeñas y medianas empresas a crecer su negocio por medio de:</p>
