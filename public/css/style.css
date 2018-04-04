@@ -4,24 +4,36 @@ html, body, .row, div#abouttext, img#imgabout, img#imgproyecto{
 
 .imgLogo{
     width:90%;
-    text-align:center;
     vertical-align: middle;
-    border:5;
-    padding:10;
-
 }
 
 .imgLogo1{
     height:120px;
     text-align:center;
     vertical-align: middle;
-
 }
 .divLogoC{
-    vertical-align:middle;
-    height: 120;
-     border:5;
-    padding:10;
+
+    /*height: 140;
+    padding:10px;
+    border-style: dotted;
+    border-color: black;*/
+}
+
+.container {
+ display: table;
+}
+.row
+{
+ height: 100%;
+ width:100%;
+ display: table-row;
+}
+.vertical-center
+{
+ display: table-cell;
+ float: none;
+ vertical-align: middle;
 }
 
 .center {
