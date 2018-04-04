@@ -23,6 +23,10 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
+Route::get('/clientes', function () {
+    return view('clientes');
+});
+
 Route::get('/land', function () {
     return view('land');
 });

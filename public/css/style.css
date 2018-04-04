@@ -1,5 +1,47 @@
-html, body, .container-fluid, .row, div#abouttext, img#imgabout, img#imgproyecto{
+html, body, .row, div#abouttext, img#imgabout, img#imgproyecto{
 	height:100%;
+}
+
+.imgLogo{
+    width:90%;
+    text-align:center;
+    vertical-align: middle;
+
+}
+
+.imgLogo1{
+    height:120px;
+    text-align:center;
+    vertical-align: middle;
+
+}
+.divLogoC{
+    vertical-align:middle;
+    height: 120;
+}
+
+.center {
+    text-align:center;
+}
+
+.red {
+    background-color:red;
+    color:white;
+}
+
+.gris{
+    background-color:#343434;
+    color:white;
+
+}
+
+.black {
+    background-color:black;
+    color:white;
+}
+.white {
+    background-color:white;
+    color:black;
 }
 
 div#homepage{
@@ -90,8 +132,13 @@ hr {
 	} /*Line color and height*/
 
 
-footer{
-	text-align: center;
+footer {
+   text-align: center;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
 }
 
 /* Medium devices (desktops, 992px and up) 
@@ -161,7 +208,7 @@ ul.text {
 
 #home{
 	background-color: black;
-	height:80%;	
+	height:80%;
 }
 
 #logohome{
@@ -207,9 +254,10 @@ li#submenu{
 		height: 20%;
 	}
 
-	div#divlogo{
-		padding-left: 0px;
-		padding-right: 0px;
+	div#divlogo1{
+		padding-left: 10px;
+		padding-right: 10px;
+		height:80%;
 		background-color: black;
 	}
 }

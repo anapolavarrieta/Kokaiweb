@@ -17,7 +17,7 @@
 					<P> <b>I</b>ncrementar el rendimiento de la empresa al implementar las soluciones.</P>
 					<P> <b>D</b>esarrollar sitios web o aplicaciones donde los usuarios se sientan cómodos y más productivos utilizando las herramientas.</P>
 					<P> <b>E</b>ntender las necesidades reales de nuestros clientes y no solo las necesidades técnicas.</P>
-					<P> <b>A</b>provechar al máximo los sistemas e información de los negocios de nuestros clientes (Big Data)..</P>
+					<P> <b>A</b>provechar al máximo los sistemas e información de los negocios de nuestros clientes (Big Data).</P>
 					<P> <b>S</b>oluciones adaptadas a sus necesidades.</P>
 					
 				</ul>

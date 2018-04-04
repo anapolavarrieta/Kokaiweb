@@ -11,7 +11,7 @@
  					</div>
  					<div class= "col-xs-12 col-md-4">
  						<h2 class="servicioh2">Desarrollo Web</h2>
- 						<p> Desarrollamos páginas de acuerdo con a las necesidades de los negocios,.</p>
+ 						<p> Desarrollamos páginas de acuerdo con a las necesidades de los negocios.</p>
  						<p> La tecnología que utilizamos se adecua a las necesidades del desarrollo.</p> 
 						<ul>
 							<p>CMS: Wordpress, Joomla y Drupal</p> 
@@ -51,7 +51,7 @@
  					<div class= "col-xs-12 col-md-4">
  						<h2 class="servicioh2">Tienda en línea</h2>
  						<p> Creamos tiendas en línea, de acuerdo a las necesidades de venta.</p>
-						<p> Gracias a nuestra experiencia con bases de datos, podemos automatizar la sincronización de inventarios</p>
+						<p> Gracias a nuestra experiencia con bases de datos, podemos automatizar la sincronización de inventarios.</p>
  					</div>
  					<div class= "col-xs-12 col-md-2">
  						<img class="img-responsive" id="imgproyecto" src= "{{URL::asset('/images/Abeja.jpg')}}" alt="About us"/>

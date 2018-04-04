@@ -36,8 +36,15 @@ Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@
 @extends('_master')
 
 	@section ('content')
-		<h2 id="contacto"> Contactanos </h2>
-		
+	    <div class="container center">
+            <div class="col-sm-1 align-self-center">
+            </div>
+            <div class="col-sm-10 align-self-center">
+		        <h2 id="contacto"> Contactanos </h2>
+		    </div>
+			<div class="col-sm-1 align-self-center">
+            </div>
+        </div>
 		@if(Session::has('success'))
 	    	<div class="alert alert-success">
 	      		{{ Session::get('success') }}
@@ -45,28 +52,35 @@ Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@
 		@endif
 
 		{!! Form::open(['route'=>'contactus.store']) !!}
-			<div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
-				{!! Form::label('Nombre:') !!}
-				{!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Ingresar Nombre']) !!}
-				<span class="text-danger">{{ $errors->first('name') }}</span>
-			</div>
+		<div class="container center">
+            <div class="col-sm-1 align-self-center">
+            </div>
+            <div class="col-sm-10 align-self-center">
+                <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
+                    {!! Form::label('Nombre:') !!}
+                    {!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Ingresar Nombre']) !!}
+                    <span class="text-danger">{{ $errors->first('name') }}</span>
+                </div>
 
-			<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-				{!! Form::label('Email:') !!}
-				{!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Ingresar Email']) !!}
-				<span class="text-danger">{{ $errors->first('email') }}</span>
-			</div>
+                <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
+                    {!! Form::label('Email:') !!}
+                    {!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Ingresar Email']) !!}
+                    <span class="text-danger">{{ $errors->first('email') }}</span>
+                </div>
 
-			<div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
-				{!! Form::label('Mensaje:') !!}
-				{!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Dejanos tu mensaje']) !!}
-				<span class="text-danger">{{ $errors->first('message') }}</span>
-			</div>
+                <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
+                    {!! Form::label('Mensaje:') !!}
+                    {!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Dejanos tu mensaje']) !!}
+                    <span class="text-danger">{{ $errors->first('message') }}</span>
+                </div>
 
-			<div class="form-group">
-				<button class="btn btn-success">¡Contáctanos!</button>
+                <div class="form-group">
+                    <button class="btn btn-success">¡Contáctanos!</button>
+                </div>
 			</div>
-
+			<div class="col-sm-1 align-self-center">
+            </div>
+        </div>
 		{!! Form::close() !!}
 
 

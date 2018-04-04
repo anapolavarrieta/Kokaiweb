@@ -15,8 +15,8 @@
   	
   		<div class="row" id="logo">
   			<div class= "col-xs-12 col-md-5"></div>
-  			<div class= "col-xs-12 col-md-2" id="divlogo">
-  				<a href='/' ><img class="img-responsive" src= "{{URL::asset('/images/Logo5.jpg')}}" alt="Kokaiweb Logo"/></a>
+  			<div class= "col-xs-12 col-md-2" id="divlogo1">
+  				<a href='/' ><img class="imgLogo" src= "{{URL::asset('/images/kokaiweb_logo.png')}}" alt="Kokaiweb Logo"/></a>
   			</div>	
   			<div class= "col-xs-12 col-md-6"></div>
   		</div>
@@ -35,7 +35,7 @@
         		<ul class="nav navbar-nav">
 					<li id="menu"><a href="/aboutus">Nosotros </a></li>
           <li id="menu"><a href='/servicios'>Servicios</a></li>
-          <li class="dropdown" id="menu">
+          <!--li class="dropdown" id="menu">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portafolio <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li id="submenu"><a href="/land">Land</a></li>
@@ -43,7 +43,8 @@
                 <li id="submenu"><a href="/pakete">Paketealivianes</a></li>
                 <li id="submenu"><a href="/contravel">Contravel</a></li>
             </ul>
-          </li>
+          </li-->
+          <li id="menu"><a href='/clientes'>Clientes</a></li>
           <li id="menu"><a href='/contacto'>Contacto</a></li>
 				</ul>
 			</div>
