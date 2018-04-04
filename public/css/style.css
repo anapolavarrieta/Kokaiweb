@@ -6,6 +6,8 @@ html, body, .row, div#abouttext, img#imgabout, img#imgproyecto{
     width:90%;
     text-align:center;
     vertical-align: middle;
+    border:5;
+    padding:10;
 
 }
 
@@ -18,6 +20,8 @@ html, body, .row, div#abouttext, img#imgabout, img#imgproyecto{
 .divLogoC{
     vertical-align:middle;
     height: 120;
+     border:5;
+    padding:10;
 }
 
 .center {

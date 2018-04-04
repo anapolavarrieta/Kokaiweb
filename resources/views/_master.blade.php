@@ -11,7 +11,7 @@
 </head>
 
 <body>
-     <div class="container-fluid" id="homepage">
+     <div class="container-fluid black">
   	
   		<div class="row" id="logo">
   			<div class= "col-xs-12 col-md-5"></div>
