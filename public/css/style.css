@@ -6,6 +6,11 @@ html, body, .row, div#abouttext, img#imgproyecto{
     width:90%;
 }
 
+.imgAbejaCel{
+    width:100%;
+    height:100%;
+}
+
 .divLogoC{
     height: 140px;
     /*height: 140;
