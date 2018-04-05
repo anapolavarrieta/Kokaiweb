@@ -1,4 +1,4 @@
-html, body, .row, div#abouttext, img#imgabout, img#imgproyecto{
+html, body, .row, div#abouttext, img#imgproyecto{
 	height:100%;
 }
 
@@ -92,11 +92,9 @@ div#navigationhome{
 	color: white;
 }
 
-#navigationhome {
-	border-color: black;
-}
 
 #navigationhome{
+	border-color: black;
 	border-top-color:white;
 	border-top-width: thick;
 	border-bottom-color:white;

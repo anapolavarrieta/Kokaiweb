@@ -33,7 +33,7 @@ Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@
 
 -->
 
-@extends('_master')
+@extends('layouts._master')
 
 	@section ('content')
 	    <div class="container center">
