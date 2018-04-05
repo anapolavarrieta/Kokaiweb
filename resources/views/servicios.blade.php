@@ -18,7 +18,7 @@
 							<p class="font120">Frameworks: Laravel (PHP) y Django (PYTHON).</p>
 						</ul>
  					</div>
- 					<div class= "col-xs-0 col-md-2">
+ 					<div class= "col-xs-0 col-md-2 hidden-xs">
  						<img class="img-responsive" id="imgproyecto" src= "{{URL::asset('/images/Abeja.jpg')}}" alt="About us"/>
  					</div>
  					<div class= "col-xs-12 col-md-4">
@@ -45,7 +45,7 @@
  			<div class= "col-xs-12 col-md-12" id="serviciostext">
  				<div class="row">
  					<div class= "col-xs-12 col-md-0"></div>
- 					<div class= "col-xs-12 col-md-2">
+ 					<div class= "col-xs-12 col-md-2 hidden-sm">
  						<img class="img-responsive" id="imgproyecto" src= "{{URL::asset('/images/Abeja.jpg')}}" alt="About us"/>
  					</div>
  					<div class= "col-xs-12 col-md-4">
@@ -56,7 +56,7 @@
  					<div class= "col-xs-12 col-md-2">
  						<img class="img-responsive" id="imgproyecto" src= "{{URL::asset('/images/Abeja.jpg')}}" alt="About us"/>
  					</div>
- 					<div class= "col-xs-12 col-md-4">
+ 					<div class= "col-xs-12 col-md-4 hidden-sm">
  						<h2 class="servicioh2">Automatización de procesos</h2>
  						<p class="font120"> Reducimos el tiempo de procesos que, normalmente, se hacen manuales.</p>
 						<p class="font120"> La mejora y automatización de procesos ayuda a los negocios a tener mayor precisión y disminuir errores.</p>
