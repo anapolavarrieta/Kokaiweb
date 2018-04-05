@@ -52,23 +52,23 @@ Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@
 		@endif
 
 		{!! Form::open(['route'=>'contactus.store']) !!}
-		<div class="container center">
+		<div class="container">
             <div class="col-sm-1 align-self-center">
             </div>
-            <div class="col-sm-10 align-self-center">
-                <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
+            <div class="col-sm-10">
+                <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }} font140">
                     {!! Form::label('Nombre:') !!}
                     {!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Ingresar Nombre']) !!}
                     <span class="text-danger">{{ $errors->first('name') }}</span>
                 </div>
 
-                <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
+                <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }} font140">
                     {!! Form::label('Email:') !!}
                     {!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Ingresar Email']) !!}
                     <span class="text-danger">{{ $errors->first('email') }}</span>
                 </div>
 
-                <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
+                <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }} font140">
                     {!! Form::label('Mensaje:') !!}
                     {!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Dejanos tu mensaje']) !!}
                     <span class="text-danger">{{ $errors->first('message') }}</span>

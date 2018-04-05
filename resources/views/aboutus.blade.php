@@ -8,17 +8,17 @@
   				<img class="img-responsive" id="imgabout" src= "{{URL::asset('/images/Logoblanco.jpg')}}" alt="About us"/></a>
   			</div>
   			<div class= "col-xs-12 col-md-6" id="abouttext1">
-  				<p> Somos un grupo de desarrolladores buscando resolver diferentes necesidades tecnológicas (TI)</p>
+  				<p class="font120"> Somos un grupo de desarrolladores buscando resolver diferentes necesidades tecnológicas (TI)</p>
 
-				<p> Nuestro objetivo es ayudar a pequeñas y medianas empresas a crecer su negocio por medio de:</p>
+				<p class="font120"> Nuestro objetivo es ayudar a pequeñas y medianas empresas a crecer su negocio por medio de:</p>
 
 				<ul>
 					
-					<P> <b>I</b>ncrementar el rendimiento de la empresa al implementar las soluciones.</P>
-					<P> <b>D</b>esarrollar sitios web o aplicaciones donde los usuarios se sientan cómodos y más productivos utilizando las herramientas.</P>
-					<P> <b>E</b>ntender las necesidades reales de nuestros clientes y no solo las necesidades técnicas.</P>
-					<P> <b>A</b>provechar al máximo los sistemas e información de los negocios de nuestros clientes (Big Data).</P>
-					<P> <b>S</b>oluciones adaptadas a sus necesidades.</P>
+					<P class="font120"> <b>I</b>ncrementar el rendimiento de la empresa al implementar las soluciones.</P>
+					<P class="font120"> <b>D</b>esarrollar sitios web o aplicaciones donde los usuarios se sientan cómodos y más productivos utilizando las herramientas.</P>
+					<P class="font120"> <b>E</b>ntender las necesidades reales de nuestros clientes y no solo las necesidades técnicas.</P>
+					<P class="font120"> <b>A</b>provechar al máximo los sistemas e información de los negocios de nuestros clientes (Big Data).</P>
+					<P class="font120"> <b>S</b>oluciones adaptadas a sus necesidades.</P>
 					
 				</ul>
 

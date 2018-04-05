@@ -15,7 +15,7 @@
         <div>
             <div>
                 <div>
-                    <div class="grisO">
+                    <div class="grisO font200">
                         Páginas Web
                     </div>
                 </div>
@@ -70,7 +70,7 @@
         <div>
             <div>
                 <div>
-                    <div class="grisO">
+                    <div class="grisO font200">
                         Sistemas Automatizados
                     </div>
                 </div>
