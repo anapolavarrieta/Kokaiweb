@@ -53,10 +53,10 @@
  						<p class="font120"> Creamos tiendas en línea, de acuerdo a las necesidades de venta.</p>
 						<p class="font120"> Gracias a nuestra experiencia con bases de datos, podemos automatizar la sincronización de inventarios.</p>
  					</div>
- 					<div class= "col-xs-12 col-md-2">
+ 					<div class= "col-xs-12 col-md-2 hidden-sm hidden-xs">
  						<img class="img-responsive" id="imgproyecto" src= "{{URL::asset('/images/Abeja.jpg')}}" alt="About us"/>
  					</div>
- 					<div class= "col-xs-12 col-md-4 hidden-sm hidden-xs">
+ 					<div class= "col-xs-12 col-md-4">
  						<h2 class="servicioh2">Automatización de procesos</h2>
  						<p class="font120"> Reducimos el tiempo de procesos que, normalmente, se hacen manuales.</p>
 						<p class="font120"> La mejora y automatización de procesos ayuda a los negocios a tener mayor precisión y disminuir errores.</p>
