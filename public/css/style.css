@@ -4,16 +4,10 @@ html, body, .row, div#abouttext, img#imgabout, img#imgproyecto{
 
 .imgLogo{
     width:90%;
-    vertical-align: middle;
 }
 
-.imgLogo1{
-    height:120px;
-    text-align:center;
-    vertical-align: middle;
-}
 .divLogoC{
-
+    height: 140px;
     /*height: 140;
     padding:10px;
     border-style: dotted;
@@ -47,6 +41,12 @@ html, body, .row, div#abouttext, img#imgabout, img#imgproyecto{
 
 .gris{
     background-color:#343434;
+    color:white;
+
+}
+
+.grisO{
+    background-color:darkgray;
     color:white;
 
 }
