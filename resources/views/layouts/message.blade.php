@@ -1,4 +1,4 @@
-<div class="container-center">
+<div class="container">
     <div class="row">
         @if ($message = Session::get('success'))
         <div class="col-sm-12 align-self-center alert">

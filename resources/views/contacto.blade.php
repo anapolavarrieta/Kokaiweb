@@ -45,12 +45,6 @@ Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@
         <div class="col-sm-1 align-self-center">
         </div>
     </div>
-    @if(Session::has('success'))
-        <div class="alert alert-success">
-            {{ Session::get('success') }}
-        </div>
-    @endif
-
 
     <form method='GET' action='/contactus/' accept-charset="UTF-8">
         <div class="container">
