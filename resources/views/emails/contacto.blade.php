@@ -10,7 +10,7 @@
                 <tr >
                     <td style="background:black;color:white;vertical-align: middle;text-align:center; margin:30px;">
                         <a href="www.kokaiweb.com">
-                            <img class="logo" src="{{URL::asset('/images/kokaiweb_logo.png')}}" style="height:100px;margin-left:20px" alt="Visitenos" >
+                            <img class="logo" src="{{URL::asset('/images/kokaiweb_logoChico.png')}}" style="height:100px;margin-left:20px" alt="Visitenos" >
                         </a>
                         <h1>Contacto con Kokai Web</h1>
                     </td>

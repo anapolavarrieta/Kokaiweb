@@ -39,7 +39,7 @@ class ContactUSController extends Controller
         $res = Mail::send('emails.contacto',$data, function ($message) use ($emails, $emailsBCC) {
 			$message->from('contactoKW@kokai.com.mx','Página Kokai Web');
 			$message->to($emails);
-			$message->bcc('gaby@kokai.com.mx');
+			$message->bcc($emailsBCC);
 			$message->subject('[Contacto] Página Kokai Web');
  		});
 
@@ -49,11 +49,11 @@ class ContactUSController extends Controller
         //return view('inicio')->with('success', '¡Gracias por contactarnos ,nos pondremos en contacto con usted tan pronto leamos su mensaje!');
         ///return view('inicio')->with(['tipoMensaje'=>'success','mensaje'=>'¡Gracias por contactarnos, nos pondremos en contacto con usted tan pronto leamos su mensaje!']);
         //return view('layouts.prueba');
-        return view('emails.contacto')->with($data);
+        //return view('emails.contacto')->with($data);
 
 
 
-        //return back()->with('success', '¡Gracias por contactarnos!');
+        return back()->with('success', '¡Gracias por contactarnos!');
     }
 
 
