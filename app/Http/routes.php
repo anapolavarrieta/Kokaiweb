@@ -43,9 +43,11 @@ Route::get('/contravel', function () {
     return view('contravel');
 });
 
-Route::get('contact-us', 'ContactUSController@contactUS');
+//Route::get('contact-us', 'ContactUSController@contactUS');
+Route::get('/contactus', 'ContactUSController@contactus');
+Route::post('/contactus', 'ContactUSController@contactus');
 
-Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
+//Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
 
 Route::get('/contacto', function () {
     return view('contacto');

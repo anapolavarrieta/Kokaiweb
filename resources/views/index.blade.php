@@ -5,7 +5,8 @@
 	<title>@yield ('title', 'Kokaiweb')</title>
 	<meta charset="utf-8">
 	<link href="{{URL::asset('/css/Bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-	<link rel="stylesheet" href="{{URL::asset('/css/style.css')}}" type="text/css"> 
+	<link rel="stylesheet" href="{{URL::asset('/css/style.css')}}" type="text/css">
+	<link href='{{URL::asset('/css/generico.css')}}' type='text/css' rel='stylesheet'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
 	<script src="{{URL::asset('/css/Bootstrap/js/bootstrap.min.js')}}"></script>
 </head>

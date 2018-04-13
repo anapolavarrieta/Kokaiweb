@@ -35,24 +35,25 @@ Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@
 
 @extends('layouts._master')
 
-	@section ('content')
-	    <div class="container center">
-            <div class="col-sm-1 align-self-center">
-            </div>
-            <div class="col-sm-10 align-self-center">
-		        <h2 id="contacto"> Contactanos </h2>
-		    </div>
-			<div class="col-sm-1 align-self-center">
-            </div>
+@section ('content')
+    <div class="container center">
+        <div class="col-sm-1 align-self-center">
         </div>
-		@if(Session::has('success'))
-	    	<div class="alert alert-success">
-	      		{{ Session::get('success') }}
-	    	</div>
-		@endif
+        <div class="col-sm-10 align-self-center">
+            <h2 id="contacto"> Contactanos </h2>
+        </div>
+        <div class="col-sm-1 align-self-center">
+        </div>
+    </div>
+    @if(Session::has('success'))
+        <div class="alert alert-success">
+            {{ Session::get('success') }}
+        </div>
+    @endif
 
-		{!! Form::open(['route'=>'contactus.store']) !!}
-		<div class="container">
+
+    <form method='GET' action='/contactus/' accept-charset="UTF-8">
+        <div class="container">
             <div class="col-sm-1 align-self-center">
             </div>
             <div class="col-sm-10">
@@ -77,11 +78,9 @@ Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@
                 <div class="form-group">
                     <button class="btn btn-success">¡Contáctanos!</button>
                 </div>
-			</div>
-			<div class="col-sm-1 align-self-center">
+            </div>
+            <div class="col-sm-1 align-self-center">
             </div>
         </div>
-		{!! Form::close() !!}
-
-
+    </form>
 @stop
