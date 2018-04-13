@@ -39,7 +39,7 @@ class ContactUSController extends Controller
         $res = Mail::send('emails.contacto',$data, function ($message) use ($emails, $emailsBCC) {
 			$message->from('contactoKW@kokai.com.mx','Página Kokai Web');
 			$message->to($emails);
-			$message->bcc($emailsBCC);
+			$message->bcc('gaby@kokai.com.mx');
 			$message->subject('[Contacto] Página Kokai Web');
  		});
 
